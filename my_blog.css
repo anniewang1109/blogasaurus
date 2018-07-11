@@ -24,12 +24,12 @@ h3{
   margin: 10px;
 }
 
-.section{
+section{
   margin: 20px;
 }
 
-.section img{
-  margin: 8px;
+section img{
+  margin: 8 auto      px;
 }
 
 
