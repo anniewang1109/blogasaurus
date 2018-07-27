@@ -11,11 +11,13 @@
     <h2>By: {{username}}</h2>
     <p>{{post}}</p>
 
-    <p>Tags:
-        {% for tag in tags_list %}
-          {{tag}}
+    <p>Tags:</p>
+      <ul>
+        {% for tag in tags %}
+        <li>{{tag}}</li>
         {% endfor %}
-    </p>
+      </ul>
+
 
 
 

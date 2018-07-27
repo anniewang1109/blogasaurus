@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Posts</title>
+    <link rel="stylesheet" href="static/show_many_posts.css"/>
+  </head>
+
+  <body>
+
+    <h1>Posts by: {{username}}<h1>
+    {% for blog_post in blog_posts %}
+      <div class='blogPost'>
+        <h2>{{blog_post.title}}</h2>
+        <p>{{blog_post.content}}</p>
+      </div>
+    {% endfor %}
+
+    {% for tag in tags_list %}
+      <p>tag 1: {{tag}}</p>
+    {% endfor %}
+
+
+  </body>
+
+</html>
